@@ -24,7 +24,7 @@ def askIncome():
             income = int(input("Please enter their income: "))
             writer.writerow([name, income])
 
-# 3️
+# 3️ creat excel pie chart from final.csv
 def excelPie():
     wb = Workbook()
     ws = wb.active
